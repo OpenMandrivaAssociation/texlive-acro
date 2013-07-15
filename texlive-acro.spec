@@ -1,11 +1,11 @@
-# revision 27175
+# revision 27988
 # category Package
 # catalog-ctan /macros/latex/contrib/acro
-# catalog-date 2012-07-24 16:08:54 +0200
+# catalog-date 2012-10-16 00:49:26 +0200
 # catalog-license lppl
-# catalog-version 0.3e
+# catalog-version 0.4a
 Name:		texlive-acro
-Version:	0.3e
+Version:	0.4a
 Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
@@ -53,3 +53,15 @@ which automatically sorts the list created by \printacronyms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Oct 25 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4a-1
++ Revision: 819785
+- Update to latest release.
+
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3e-1
++ Revision: 813356
+- Import texlive-acro
+- Import texlive-acro
+
