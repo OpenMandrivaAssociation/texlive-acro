@@ -6,7 +6,7 @@
 # catalog-version 0.4a
 Name:		texlive-acro
 Version:	0.4a
-Release:	1
+Release:	2
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
