@@ -1,12 +1,12 @@
-# revision 32071
+# revision 32450
 # category Package
 # catalog-ctan /macros/latex/contrib/acro
-# catalog-date 2013-11-04 18:58:09 +0100
+# catalog-date 2013-12-19 18:38:49 +0100
 # catalog-license lppl
-# catalog-version 1.4c
+# catalog-version 1.5
 Name:		texlive-acro
-Version:	1.4c
-Release:	5
+Version:	1.5
+Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
