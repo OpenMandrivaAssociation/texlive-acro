@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-acro
 Version:	1.5
-Release:	4
+Release:	5
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
