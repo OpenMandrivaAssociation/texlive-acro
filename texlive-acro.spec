@@ -1,12 +1,6 @@
-# revision 32450
-# category Package
-# catalog-ctan /macros/latex/contrib/acro
-# catalog-date 2013-12-19 18:38:49 +0100
-# catalog-license lppl
-# catalog-version 1.5
 Name:		texlive-acro
-Version:	1.5
-Release:	5
+Version:	2.7c
+Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
@@ -37,14 +31,8 @@ which automatically sorts the list created by \printacronyms.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/acro/acro.sty
-%{_texmfdistdir}/tex/latex/acro/acro0.def
-%{_texmfdistdir}/tex/latex/acro/acro1.def
-%doc %{_texmfdistdir}/doc/latex/acro/README
-%doc %{_texmfdistdir}/doc/latex/acro/acro_en.pdf
-%doc %{_texmfdistdir}/doc/latex/acro/acro_en.tex
-%doc %{_texmfdistdir}/doc/latex/acro/example_one.tex
-%doc %{_texmfdistdir}/doc/latex/acro/example_two.tex
+%{_texmfdistdir}/tex/latex/acro
+%doc %{_texmfdistdir}/doc/latex/acro
 
 #-----------------------------------------------------------------------
 %prep
