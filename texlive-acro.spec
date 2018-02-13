@@ -1,5 +1,5 @@
 Name:		texlive-acro
-Version:	2.7c
+Version:	2.8
 Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
