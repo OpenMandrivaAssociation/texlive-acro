@@ -1,6 +1,6 @@
 Name:		texlive-acro
-Version:	2.8
-Release:	3
+Version:	2.9
+Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
