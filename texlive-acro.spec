@@ -1,12 +1,12 @@
 Name:		texlive-acro
-Version:	2.9
+Version:	62925
 Release:	1
 Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.r62925.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.doc.r62925.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,12 +22,12 @@ experimental feature the package also offers the option 'sort'
 which automatically sorts the list created by \printacronyms.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,7 @@ which automatically sorts the list created by \printacronyms.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
