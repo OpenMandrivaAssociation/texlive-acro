@@ -5,8 +5,8 @@ Summary:	Typeset acronyms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.r62925.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.doc.r62925.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
