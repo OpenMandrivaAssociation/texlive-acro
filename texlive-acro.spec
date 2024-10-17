@@ -3,7 +3,7 @@ Version:	62925
 Release:	2
 Summary:	Typeset acronyms
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acro
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/acro
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acro.doc.r%{version}.tar.xz
